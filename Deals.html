@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBH</title>
+
+     <link rel="icon" type="image/jpg" href="image1.png">
+    <style>  
+    body{
+         margin: 0%;
+        padding: 0%;
+        font-family: Arial;
+        background-image: linear-gradient(rgba(4,22,32,0.2)) url(image7.png);
+    
+       
+    }
+     h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type:none;
+    background-color:rgba(4,22,32,0.2) ;
+    padding:0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{ 
+background-color: orange;
+
+}
+.navbar li{
+    float:right;
+}
+.navbar{
+    float:right;
+}
+.box1{
+    height: 20px;
+}
+ .box2{ height: 50px;
+    margin-top: 0%;
+    
+    padding: auto;
+
+     background-image:url(image1.png) ;height: 1000px;
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: none;
+ }
+       .box3{
+        align-items: center;
+        height: 50px;
+       }
+       
+form{
+    width: 300px;
+    margin: 50vh;
+    padding: 50px;
+    
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: aqua;
+    background-color:rgb(4, 22, 52) ;
+    border: none;
+    border-radius: 4px;
+}
+</style>
+</head>
+<body>
+     <p id="paragraph"></p>
+
+     <div class="main container">
+    <header style="background-color: rgb(4, 22, 52) ;color:white;">
+         <div class="main container">
+    <div class="box1">
+         <nav class="navbar">
+        <ul>
+        <li><a href="contactus.html">Contact</a></li>
+        <li><a href="Deals.html">Deals</a></li>
+        <li><a href="menu1.html">Menu</a></li>
+         <li><a href="aboutus.html">About us</a></li>
+        <li><a href="index.html">index</a></li>
+      </ul>
+      </nav>
+      </div>
+      <h6>KITENDE BURGER HUB</h6>
+    
+    <h1>Deals</h1>
+    </header>
+
+
+
+    <div class="box2" style="background-image: url(image1.png);">
+    <main >
+       
+        <form action="index.php" method="post">
+             <h4>Reservations</h4>
+        <h3>Book A Table Online</h3>
+
+        <div>
+        <label for="Your Name">Your Name</label >
+        <input type="your Name" id="Your Name" minlength="6" maxlength="20" placeholder="Kwizera Amali">
+        </div>
+
+        <br >
+
+        <div>
+         <label for="Date & Time">Date & Time</label >
+        <input type="date" id="Date & Time" placeholder="">
+       </div>
+        <br>
+
+         <div>
+        <label for="Bookings">Bookings</label >
+        <input type="number" id="Bookings" name="Bookings" required>
+        </div>
+        
+
+        <br>
+
+         <div>
+        <label for="No of People">No of People</label >
+        <input type="number" id="No of People" name="No of People">
+         </div>
+
+        <br>
+
+
+
+         <div>
+         <label for="email">email</label >
+        <input type="email" id="email" placeholder="kbh@gmail.com" required>
+        </div>
+
+        <br>
+
+
+         <div>
+         <label for="Mr">Mr.</label>
+        <input type="radio" id="Mr" value="Mr" title="name">
+        <label for="Ms">Ms.</label>
+        <input type="radio" id="Ms" value="Ms" title="name">
+        </div>
+        <br>
+        <div>
+            <label for="payment">Payment</label>
+            <select id="payment" name="payment">
+                <option value="visa">visacard</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+            </select>
+        </div>
+
+
+     <p id="paragraph"></p>
+    <button style="color: orange;" onclick="Clickme()">BOOK NOW</button>
+     <p class="btn">Your Order</p>
+     </form>
+    </main>
+    </div>
+
+
+    <div class="box3">
+
+    <footer style="background-color: rgb(4, 22, 52) ;color:white;">
+      <hr>
+      kbh@gmail.com<br>
+      We're there Kitende Burger Hub
+      &copy;copyright
+    </footer>
+       </div>
+        <script src="jajo.js"></script>
+</body>
+</html>
